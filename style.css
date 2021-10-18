@@ -1,0 +1,22 @@
+header{
+    background-color: darkgrey;
+    color: whitesmoke;
+}
+
+h1 {
+    font-family: cursive;
+    font-size: 48px;
+    color:  white;
+}
+
+p{
+    font-family: cursive;
+    font-size: medium;
+    color: black;
+}
+
+footer{
+    background-color: darkgrey;
+    color: whitesmoke;
+}
+
