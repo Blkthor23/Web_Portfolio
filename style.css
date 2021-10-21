@@ -1,22 +1,75 @@
-header{
-    background-color: darkgrey;
+img{
+    border-radius: 75%;
+    width: 200px;
+    margin-left: 44%;
+    margin-right: 56%;
+}
+
+ul{
     color: whitesmoke;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
 }
 
-h1 {
-    font-family: cursive;
-    font-size: 48px;
-    color:  white;
-}
-
-p{
-    font-family: cursive;
-    font-size: medium;
-    color: black;
-}
-
-footer{
-    background-color: darkgrey;
+.all_articles{
     color: whitesmoke;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    padding: 5px;
 }
 
+nav a:visited{
+    color: lightsteelblue;
+}
+
+nav a:hover{
+    color: skyblue;
+}
+
+nav a:active{
+    color: lightgreen;
+}
+
+.navi{
+    color: whitesmoke;
+    text-align: right;
+    padding: 5px;
+    font-size: 20px;
+    word-spacing: 5px;
+    margin: 10px;
+}
+.article_boundrey{
+    background-color: slategray;
+    padding: 15px;
+}
+
+h2.subjects{
+    text-align:center;
+    font-size: 25px;
+}
+
+h1.subjects{
+    text-align:left;
+    margin-left: 20px;
+}
+.subjects{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+.hrs{
+    background-color: rgba(0, 0, 0, 0.863);
+    color: rgba(0, 0, 0, 0.863);
+    padding: 10px;
+}
+.boundrey{
+    background-color: rgba(0, 0, 0, 0.863);
+    padding: 10px;
+}
+
+.footer{
+    color: whitesmoke;
+    font-size: 20px;
+}
