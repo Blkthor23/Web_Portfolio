@@ -1,3 +1,10 @@
+ol{
+    color: whitesmoke;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+}
+
 img{
     border-radius: 75%;
     width: 200px;
