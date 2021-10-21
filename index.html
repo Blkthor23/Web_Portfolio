@@ -1,34 +1,76 @@
 <!DOCTYPE html>
 <html>
 <head> 
+    <meta name="viewport" content="width=device-width">
     <link href="./style.css" rel="stylesheet" type="text/css"/>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet" type="text/css" />
     <title>Jason Deville's portfolio</title>
 </head>
+<body>
 
-<header>
-    <div>
-        <h1>Hello World</h1> <nav>Home| projects | ect </nav>
-    </div>
+    <header>
+        <div class="boundrey">
+            <h1 class="subjects">Jason Deville's portfolio</h1> <nav class="navi">
+                <a href="#About_me">About Me</a> <a href="#Projects">Projects</a> <a href="#contact_info">Contact info</a>
+            </nav>
+        </div>
+        
+    </header>
     
-</header>
-<hr>
+    <main>
+        <div class="article_boundrey">
+        <article>
 
-<main>
-    <p>
-        I'm a budding new software developer. I'm glad you came to my site. Below are samples of projects that i've done and links to the github repositories. Enjoy!
-    </p>
-</main>
-
-<hr>
-
-<footer>
-    <div>
-        <p>
-            blackhawk, LLC
-        </p>
+            <section id="About_me">
+                <h2 class="subjects"> About Me</h2>
+                    <img src="Images/Jason_professional_2.jpg">
+                    <h3 class="all_articles"> Hi, I'm Jason Deville. I am a software developer.</h3>
+                    <p class="all_articles">I'm a former Help Desk Tier 2 and system administrator. I Currently hold several certifications. Comptia Security+, Slack administrator, Jamf 100 and AWS Cloud Practicioner. I'm originally from Los Angeles, CA. but Currently located in Aubrey, TX. My passion for being developer like many developed with my love of video games.</p>
+                    <ul>
+                        Certifications:
+                        <li>Comptia Security+</li>
+                        <li>Jamf 100</li>
+                        <li>Slack administrator</li>
+                        <li>AWS Cloud Practicioner</li>
+                    </ul>
+                    <p class="all_articles">  Below are samples of projects that i've done and links to the github repositories. Enjoy!</p>
+            </section>
+            <hr>
+            <section id="Projects">
+                <h2 class="subjects">Projects</h2>
+                <p class="all_articles">My portfolio website</p>
+            </section>
+            <hr>
+            <section id=contact_info>
+                <h2 class="subjects">Contact info</h2>
+                <p class="all_articles">Linkedin:<a href="https://www.linkedin.com/in/jasondeville1">linkedin</a></p>
+                <p class="all_articles">github account:<a href="https://www.linkedin.com/in/jasondeville1">github</a></p>
+                <p class="all_articles">location:</p>
+            </section>
+            <hr>
+        </article>
+            
     </div>
-    
-</footer>
+    </main>
+
+    <footer class="footer">
+        <div class="boundrey">
+            <p>
+                © Jason Deville
+            </p>
+            <nav class="navi">
+                <p><a href="#About_me">About Me</a></p> 
+                <p><a href="#Projects">Projects</a></p> 
+                <p><a href="#contact_info">Contact info</a></p>
+            </nav>
+        </div>
+        
+    </footer>
+
+
+
+
+</body>
+
     
 </html>
