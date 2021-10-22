@@ -72,14 +72,12 @@ h1.subjects{
     padding: 10px;
 }
 .boundrey{
-    width: auto;
-    height: auto;
+    height: 200px;
     background-color: rgba(0, 0, 0, 0.863);
     padding: 10px;
 }
 
 .footer{
-    height:auto;
     color: whitesmoke;
     font-size: 20px;
 }
