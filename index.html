@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+<!--Below is the head information. It contains the Title, links to the CSS file, normalize CSS, and Meta info.-->
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
@@ -7,34 +8,38 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet" type="text/css" />
     <title>Jason Deville's portfolio</title>
 </head>
+    
 <body>
-
+<!--Below is the header information. Contains the h1 header that specifies what this site is for. 
+It also contains navigation links for the sections placed further below, as well as a div for the boundry.-->
     <header>
         <div class="boundrey">
             <h1 class="subjects">Jason Deville's portfolio</h1> <nav class="navi">
                 <a href="#About_me">About Me</a> <a href="#Projects">Projects</a> <a href="#contact_info">Contact info</a>
             </nav>
         </div>
-        
     </header>
     
+    <!--Below is the main section. This contains the article which contains the sections(about me, projects, contact). It has h2 and h3 headers. 
+    h2 headers to highlight the begining of a section. h3 for things that are important but les important than the beginning of the section.
+    It also contains an unordered list as well as an image with an alt tag. There are also hr tags used to break these sections up -->
     <main>
         <div class="article_boundrey">
         <article>
 
             <section id="About_me">
                 <h2 class="subjects"> About Me</h2>
-                    <img src="Images/Jason_professional_2.jpg">
+                    <img src="Images/Jason_professional_2.jpg" alt="Jason's professional photo">
                     <h3 class="all_articles"> Hi, I'm Jason Deville. I am a software developer.</h3>
-                    <p class="all_articles">I'm a former Help Desk Tier 2 and system administrator. I Currently hold several certifications. Comptia Security+, Slack administrator, Jamf 100 and AWS Cloud Practicioner. I'm originally from Los Angeles, CA. but Currently located in Aubrey, TX. My passion for being developer like many developed with my love of video games.</p>
-                    <ul>
-                        Certifications:
+                    <p class="all_articles" lang="en">I'm a former Help Desk Tier 2 and system administrator. I Currently hold several certifications. Comptia Security+, Slack administrator, Jamf 100 and AWS Cloud Practicioner. I'm originally from Los Angeles, CA. but Currently located in Aubrey, TX. My passion for being developer like many developed with my love of video games.</p>
+                    <h3 class="all_articles">Certifications:<h3>
+                    <ul>    
                         <li>Comptia Security+</li>
                         <li>Jamf 100</li>
                         <li>Slack administrator</li>
                         <li>AWS Cloud Practicioner</li>
                     </ul>
-                    <p class="all_articles">  Below are samples of projects that i've done and links to the github repositories. Enjoy!</p>
+                    <p class="all_articles" lang="en">  Below are samples of projects that i've done and links to the github repositories. Enjoy!</p>
             </section>
             <hr>
             <section id="Projects">
@@ -47,24 +52,24 @@
             <hr>
             <section id=contact_info>
                 <h2 class="subjects">Contact info</h2>
-                <p class="all_articles">Linkedin:<a href="https://www.linkedin.com/in/jasondeville1">linkedin</a></p>
-                <p class="all_articles">github account:<a href="https://github.com/Blkthor23/Web_Portfolio">github</a></p>
+                <p class="all_articles" lang="en">Linkedin:<a href="https://www.linkedin.com/in/jasondeville1">linkedin</a></p>
+                <p class="all_articles" lang="en">github account:<a href="https://github.com/Blkthor23/Web_Portfolio">github</a></p>
             </section>
             <hr>
         </article>
             
     </div>
     </main>
-
+<!--Footer info. Contains my name, and the same navigation links from the header.-->
     <footer class="footer">
         <div class="boundrey">
-            <p>
+            <p lang="en">
                 © Jason Deville
             </p>
             <nav class="navi">
-                <p><a href="#About_me">About Me</a></p> 
-                <p><a href="#Projects">Projects</a></p> 
-                <p><a href="#contact_info">Contact info</a></p>
+                <p lang="en"><a href="#About_me">About Me</a></p> 
+                <p lang="en"><a href="#Projects">Projects</a></p> 
+                <p lang="en"><a href="#contact_info">Contact info</a></p>
             </nav>
         </div>
         
