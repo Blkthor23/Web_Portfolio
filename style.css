@@ -72,6 +72,7 @@ h1.subjects{
     padding: 10px;
 }
 .boundrey{
+    width: auto;
     height: auto;
     background-color: rgba(0, 0, 0, 0.863);
     padding: 10px;
