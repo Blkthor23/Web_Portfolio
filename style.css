@@ -62,16 +62,18 @@ It also add 15 pixels of padding, without the padding the p and h2 tags apparred
     background-color: slategray;
     padding: 15px;
 }
+
+/* connect to the h1 tag class to align the text to the left and push the left margin over 20 pixels.*/
+h1.subjects{
+    text-align:left;
+    margin-left: 20px;
+}
+
 /* reaches out to the h2 tags and aligns them center for better visibilty, and also sets the font size to 25 pixels, that way it's smaller than the h1 tag. 
 So there is no confusion about importance. */
 h2.subjects{
     text-align:center;
     font-size: 25px;
-}
-/* connect to the h1 tag class to align the text to the left and push the left margin over 20 pixels.*/
-h1.subjects{
-    text-align:left;
-    margin-left: 20px;
 }
 
 /*class created for the h1 and h2 tags in the HTML index.html file. It sets the text color to whitesmoke, font to times new roman, with a default of serif if times isn't supported.
