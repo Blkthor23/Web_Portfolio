@@ -1,0 +1,11 @@
+.Rows {
+  display: flex;
+  justify-content: space-evenly;
+  height: 90vh;
+  box-sizing: border-box;
+}
+
+.Row-Data {
+  border: 1px solid;
+  align-items: center;
+}

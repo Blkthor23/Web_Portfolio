@@ -1,0 +1,10 @@
+.Rows {
+  display: flex;
+  justify-content: space-evenly;
+  height: 90vh;
+}
+
+.Row {
+  border: 1px solid;
+  align-items: center;
+}
